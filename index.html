@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <title>Tags.js</title>
     <script src="dist/main.js"></script>
-    <script src="example.js"></script>
 </head>
 <body>
 <div class="container">
@@ -16,12 +15,19 @@
     <h2>Example 1 - Simple input</h2>
     <input class="form-control" type="text" id="example-1" placeholder="Start typing" />
 </div>
-
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+<script type="module" id="examples-script">
+    import {TagsJs} from "./src/index.js";
+
+    let exampleOneElement = document.getElementById('example-1');
+    let exampleOneTags = new TagsJs({
+        elm: exampleOneElement
+    });
+
+</script>
 
 </body>
 </html>

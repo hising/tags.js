@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _console;\n\nvar myArr = [1, 2, 4];\n(_console = console).log.apply(_console, myArr);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar TagsJs = function TagsJs() {\n    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n\n    _classCallCheck(this, TagsJs);\n\n    var defaultOptions = {};\n    var settings = Object.assign(defaultOptions, options);\n    console.log(\"new tag\", settings);\n};\n\nexports.TagsJs = TagsJs;\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

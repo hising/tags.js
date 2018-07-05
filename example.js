@@ -1,3 +1,5 @@
+import {TagsJs} from "./src";
+
 document.addEventListener('DOMContentLoaded', function (event) {
-    console.log('DOMContentLoaded: Run Examples');
+    new TagsJs();
 });

@@ -1,2 +1,11 @@
-const myArr = [1, 2, 4];
-console.log(...myArr);
+class TagsJs {
+    constructor(options = {}) {
+        const defaultOptions = {};
+        const settings = Object.assign(defaultOptions, options);
+        console.log("new tag", settings);
+    }
+}
+
+export {
+    TagsJs
+}
