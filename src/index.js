@@ -1,1 +1,2 @@
-console.log("tags.js loadedssss");
+const myArr = [1, 2, 4];
+console.log(...myArr);
